@@ -1,0 +1,66 @@
+.tarea-contenedor {
+    width: 500px;
+    min-height: 65px;
+    background-color: #1b1b32;
+    margin: 5px 0px;
+    padding: 8px 15px 8px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px ;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.tarea-contenedor:nth-child(3n + 1){
+    background-color: #1b1b32;
+}
+.tarea-contenedor:nth-child(3n + 2){
+    background-color: #2a2a40;
+}
+.tarea-contenedor:nth-child(3n + 3){
+    background-color: #3b3b4f;
+}
+.tarea-texto{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    overflow-wrap: anywhere;
+}
+.tarea-icono{
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+
+}
+.tarea-contenedor.completada{
+    background-color: #5a01a7;
+    text-decoration: line-through;
+}
+.tarea-icono-completar{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    margin: 5px;
+}
+.tarea-boton-eliminar{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: red;
+    border-radius: 20px;
+    border: #1b1b32 solid 2px;
+}
+.tarea-boton-completar{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: green;
+    border-radius: 20px;
+    border: #1b1b32 solid 2px;
+}
+.tarea-contenedor-iconos{
+    display: flex;
+    align-items: column;
+}
